@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #edf6f9;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #91c0d0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.number-input {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #91c0d0;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.get-fact-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #91c0d0;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.get-fact-button:hover {
+  background-color: #62a5bb;
+}
+
+.fact-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.fact-text {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #edf6f9;
+}
+
+.loading-image {
+  width: 300px;
+  height: 300px;
+}
